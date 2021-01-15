@@ -1,0 +1,121 @@
+.body{
+    font-family:'Montserrat';
+    color:#1D4353;
+    overflow-x: hidden;
+    padding-bottom: 5px !important;
+}
+ul.lifooter{
+    list-style:none;
+font-size:13px;}
+.ptxt-footer{
+   line-height: 24px;
+   
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(29,67,83,1);
+}
+.footerbg{
+background:#f2f2f2;
+padding-top:25px;
+padding-bottom:10px;}
+foothead{
+color:#1d4353;
+font-weight:600;}
+.content-page{
+background-color:#fafbfc !important;}
+.bg-com{
+background-color:#ffffff;
+}
+.card-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 0.75rem 6rem rgba(56,65,74,.03);
+    margin-bottom: 24px;
+border-radius:15px;
+}
+@media (max-width: 991.98px){
+body {
+    overflow-x: hidden;
+    padding-bottom: 10px !important;
+}
+}
+@media (min-width: 992px){
+.content-page {
+    padding: 32px 15px 65px 15px !important;
+}
+}
+.txt-4{
+white-space: nowrap;
+    line-height: 52px;
+    margin-top: -4.5px;
+    text-align: left;
+     font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #1d4353;
+    letter-spacing: 0.5px;
+}
+.box-border{
+border-radius:15px;}
+.txt-c1{
+color:#1d4353;
+}
+.txt-c2{
+color:#4ca1af;
+}
+.fw-600{font-weight:700;}
+.ltxt{
+font-size:15px;}
+.txt-h3{
+font-weight:700;
+font-size:22px;
+}
+.navbar-custom{
+background-color:#ffffff; color:#1d4353;}
+.fs_30 {
+    font-size: 30px;
+}
+
+
+.iv_button {
+    color: #1D4353;
+    text-decoration: none;
+    border: solid #b1b8ba 1px;
+    border-radius: 18px;
+    padding: 5px 11px;
+    margin: auto 12px;
+
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 100;
+  }
+  span {
+    color:#4aa2ac;
+}
+p
+{
+    color:#4aa2ac;
+}
+.pfot{
+    font-size:13px;
+}
+.iv_icon_color {
+    color: #194453;
+}
+.fs_30 {
+    font-size: 30px;
+}
+
+.navbar-custom .topnav-menu .nav-link {
+    padding: 0 15px;
+    color: rgb(228 20 20 / 60%);
+    min-width: 32px;
+    /* display: block; */
+    line-height: 70px;
+    text-align: center;
+    max-height: 70px;
+}

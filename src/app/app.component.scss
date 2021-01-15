@@ -1,0 +1,42 @@
+.jumbotron_cust{
+    background-color: transparent !important;     
+   }
+   
+   .center_radious{
+       color: #1D4353;
+       border: solid #509eb4 1px;
+       border-radius: 30px;
+       padding: 10px 18px;
+   }
+   
+   
+   .iv_button_center{
+       color: white;
+       border: none;
+       border-radius: 18px;
+       padding: 6px 14px;
+       cursor: pointer;
+       margin-left: 5px;
+       font-size: 14px;
+       font-weight: 100;
+       background-image: linear-gradient(0deg, #255265, #4790a1);
+   }
+   
+   .iv_button_botm{
+       color: #47a4ac;
+       border-radius: 8px;
+       padding: 3px 40px;
+       font-size: 18px;
+       background-color: white;
+       border: none;
+   }
+   
+   .iv_button_center:focus,.iv_button_botm:focus{
+       outline: none;
+     }
+   
+     .iv_bot_note{
+       padding: 0.9rem 0.8rem 0.8rem 0.8rem;
+       background-color: #47a4ac;
+       margin: 6px 4px !important;
+     }
