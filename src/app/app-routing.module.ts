@@ -16,6 +16,7 @@ import {DesignexterieurComponent} from '../app/designexterieur/designexterieur.c
 import {EcologieComponent} from '../app/ecologie/ecologie.component';
 import { TransmissionComponent} from '../app/transmission/transmission.component';
 import {EnergieComponent} from '../app/energie/energie.component';
+import {Page3Component} from '../app/page3/page3.component'
 // import {CategorieComponent}
 import {CategoriedevehiculeComponent} from '../app/categoriedevehicule/categoriedevehicule.component';
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'Page1', component:Page1Component},
   {path: 'demo', component:NewdemoComponent},
   {path: 'Page2',component:Page2Component},
+  {path: 'Page3',component:Page3Component},
   // {path: 'moncompte',component:Page2Component},
   {path: 'Apropos',component:AproposComponent},
   // {path: 'maselectionEtSerives',component:Page2Component},
