@@ -1,24 +1,28 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {Page1Component} from '../app/page1/page1.component';
-import {NewdemoComponent} from '../app/newdemo/newdemo.component';
+import { Page1Component} from '../app/page1/page1.component';
+import { NewdemoComponent} from '../app/newdemo/newdemo.component';
 import { Page2Component} from '../app/page2/page2.component';
-import {AproposComponent} from '../app/apropos/apropos.component';
-import {HomeComponent} from '../app/home/home.component';
-import {ConfortComponent} from '../app/confort/confort.component';
+import { AproposComponent} from '../app/apropos/apropos.component';
+import { HomeComponent} from '../app/home/home.component';
+import { ConfortComponent} from '../app/confort/confort.component';
 import { SiegeComponent} from '../app/siege/siege.component';
 import { PerformanceComponent } from '../app/performance/performance.component';
-import {HabileteComponent} from '../app/habilete/habilete.component';
-import {SecuriteComponent} from '../app/securite/securite.component';
-import {AideaustationComponent} from '../app/aideaustation/aideaustation.component';
-import {AdialaconduiteComponent} from '../app/adialaconduite/adialaconduite.component';
-import {DesignexterieurComponent} from '../app/designexterieur/designexterieur.component';
-import {EcologieComponent} from '../app/ecologie/ecologie.component';
+import { HabileteComponent} from '../app/habilete/habilete.component';
+import { SecuriteComponent} from '../app/securite/securite.component';
+import { AideaustationComponent} from '../app/aideaustation/aideaustation.component';
+import { AdialaconduiteComponent} from '../app/adialaconduite/adialaconduite.component';
+import { DesignexterieurComponent} from '../app/designexterieur/designexterieur.component';
+import { EcologieComponent} from '../app/ecologie/ecologie.component';
 import { TransmissionComponent} from '../app/transmission/transmission.component';
-import {EnergieComponent} from '../app/energie/energie.component';
-import {Page3Component} from '../app/page3/page3.component'
+import { EnergieComponent} from '../app/energie/energie.component';
+import { Page3Component} from '../app/page3/page3.component'
 // import {CategorieComponent}
-import {CategoriedevehiculeComponent} from '../app/categoriedevehicule/categoriedevehicule.component';
+///information routing
+import { SecuriteinfoComponent } from '../app/securiteinfo/securiteinfo.component';
+import { CategoriedevehiculeComponent } from '../app/categoriedevehicule/categoriedevehicule.component';
+import { AsiaaustationinfoComponent } from '../app/asiaaustationinfo/asiaaustationinfo.component';
+import { CatgorieinfoComponent } from '../app/catgorieinfo/catgorieinfo.component';
 const routes: Routes = [
 
   {path:'',component:HomeComponent},
@@ -36,18 +40,19 @@ const routes: Routes = [
   {path: 'Securite',component:SecuriteComponent},
   {path: 'Performance',component:PerformanceComponent},
   {path: 'Confort',component:ConfortComponent},
-   {path: 'Siege',component:SiegeComponent},
-   {path: 'Habilete',component:HabileteComponent},
-   {path: 'categoriedevehicule',component:CategoriedevehiculeComponent},
-   {path: 'Energie',component:EnergieComponent},
-   {path: 'Transmission',component:TransmissionComponent},
-   {path: 'Aideaustation',component:AideaustationComponent},
-   {path: 'Ecologie',component:EcologieComponent},
-   {path: 'Designexterieur',component:DesignexterieurComponent},
-   {path: 'Adialaconduite',component:AdialaconduiteComponent},
+  {path: 'Siege',component:SiegeComponent},
+  {path: 'Habilete',component:HabileteComponent},
+  {path: 'categoriedevehicule',component:CategoriedevehiculeComponent},
+  {path: 'Energie',component:EnergieComponent},
+  {path: 'Transmission',component:TransmissionComponent},
+  {path: 'Aideaustation',component:AideaustationComponent},
+  {path: 'Ecologie',component:EcologieComponent},
+  {path: 'Designexterieur',component:DesignexterieurComponent},
+  {path: 'Adialaconduite',component:AdialaconduiteComponent},
   //  {path: 'Categorie',component:Page20Component},
-  //  {path: 'asiaaustationinfo',component:Page21Component},
-  //  {path: 'securiteinfo',component:Page22Component},
+   {path: 'asiaaustationinfo',component:AsiaaustationinfoComponent},
+   {path: 'securiteinfo',component:SecuriteinfoComponent},
+  { path: 'Categorieinfo', component:CatgorieinfoComponent}
   //  {path: 'performanceinfo',component:Page23Component},
   //  {path: 'ecologieinfo',component:Page24Component},
   //  {path: 'transmissioninfo',component:Page25Component},
