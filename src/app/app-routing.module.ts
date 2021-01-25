@@ -17,12 +17,13 @@ import { EcologieComponent} from '../app/ecologie/ecologie.component';
 import { TransmissionComponent} from '../app/transmission/transmission.component';
 import { EnergieComponent} from '../app/energie/energie.component';
 import { Page3Component} from '../app/page3/page3.component'
-// import {CategorieComponent}
+
 ///information routing
 import { SecuriteinfoComponent } from '../app/securiteinfo/securiteinfo.component';
 import { CategoriedevehiculeComponent } from '../app/categoriedevehicule/categoriedevehicule.component';
 import { AsiaaustationinfoComponent } from '../app/asiaaustationinfo/asiaaustationinfo.component';
-import { CatgorieinfoComponent } from '../app/catgorieinfo/catgorieinfo.component';
+import { EnergieinfoComponent  } from '../app/energieinfo/energieinfo.component';
+import { EcologieinfoComponent } from '../app/ecologieinfo/ecologieinfo.component';
 const routes: Routes = [
 
   {path:'',component:HomeComponent},
@@ -52,11 +53,10 @@ const routes: Routes = [
   //  {path: 'Categorie',component:Page20Component},
    {path: 'asiaaustationinfo',component:AsiaaustationinfoComponent},
    {path: 'securiteinfo',component:SecuriteinfoComponent},
-  { path: 'Categorieinfo', component:CatgorieinfoComponent}
   //  {path: 'performanceinfo',component:Page23Component},
-  //  {path: 'ecologieinfo',component:Page24Component},
+  {path: 'Ecologieinfo',component:EcologieinfoComponent},
   //  {path: 'transmissioninfo',component:Page25Component},
-  //  {path: 'energieinfo',component:Page26Component},
+   {path: 'Energieinfo',component:EnergieinfoComponent},
   //  {path: 'home',component:Page27Component},
   //  {path: 'validationrecherche',component:Page28Component},
   //  {path: 'categorie1',component:Page29Component},
