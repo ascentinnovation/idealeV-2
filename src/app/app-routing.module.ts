@@ -16,7 +16,8 @@ import { DesignexterieurComponent} from '../app/designexterieur/designexterieur.
 import { EcologieComponent} from '../app/ecologie/ecologie.component';
 import { TransmissionComponent} from '../app/transmission/transmission.component';
 import { EnergieComponent} from '../app/energie/energie.component';
-import { Page3Component} from '../app/page3/page3.component'
+import { Page3Component} from '../app/page3/page3.component';
+import {CategorieComponent} from '../app/categorie/categorie.component';
 
 ///information routing
 import { SecuriteinfoComponent } from '../app/securiteinfo/securiteinfo.component';
@@ -50,7 +51,7 @@ const routes: Routes = [
   {path: 'Ecologie',component:EcologieComponent},
   {path: 'Designexterieur',component:DesignexterieurComponent},
   {path: 'Adialaconduite',component:AdialaconduiteComponent},
-  //  {path: 'Categorie',component:Page20Component},
+  {path: 'Categorie',component:CategorieComponent},
    {path: 'asiaaustationinfo',component:AsiaaustationinfoComponent},
    {path: 'securiteinfo',component:SecuriteinfoComponent},
   //  {path: 'performanceinfo',component:Page23Component},
