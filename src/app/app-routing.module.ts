@@ -25,6 +25,7 @@ import { CategoriedevehiculeComponent } from '../app/categoriedevehicule/categor
 import { AsiaaustationinfoComponent } from '../app/asiaaustationinfo/asiaaustationinfo.component';
 import { EnergieinfoComponent  } from '../app/energieinfo/energieinfo.component';
 import { EcologieinfoComponent } from '../app/ecologieinfo/ecologieinfo.component';
+import {CatgorieinfoComponent} from '../app/catgorieinfo/catgorieinfo.component';
 const routes: Routes = [
 
   {path:'',component:HomeComponent},
@@ -58,7 +59,7 @@ const routes: Routes = [
   {path: 'Ecologieinfo',component:EcologieinfoComponent},
   //  {path: 'transmissioninfo',component:Page25Component},
    {path: 'Energieinfo',component:EnergieinfoComponent},
-  //  {path: 'home',component:Page27Component},
+   {path: 'Categorieinfo',component:CatgorieinfoComponent},
   //  {path: 'validationrecherche',component:Page28Component},
   //  {path: 'categorie1',component:Page29Component},
   //  {path: 'resultatdeecherche',component:Page30Component},
