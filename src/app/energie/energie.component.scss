@@ -1,0 +1,132 @@
+.content-page{
+    background-color:#ffffff !important;
+    font-family: 'Montserrat-Light';
+ }
+body{background-color:#ffffff !important;}
+.box-gry{
+    background-color: #f6f6f8;
+}   
+.btn-color{
+    background-color:#1d4353
+}
+.txt-c1{
+    color:#1d4353;
+    }
+.txt-c2{
+    color:#4ca1af;
+    }
+.txt-u{  
+    text-decoration: underline;
+}
+.btn1-page3 {
+  box-shadow: 0 0 0 rgba(241,85,108,.5);
+}
+.btn1-page3 {
+     color: #fff;
+     background-color: #1d4353;
+    border-color:#1d4353;
+    }
+ .fs-16{
+ font-size:19px;
+    margin-top:20px;
+    font-family:'Montserrat-Light';
+    color:#2c3e50;
+    }
+.fs-10{
+    font-size:10px;
+    }
+.card-body1{
+    padding:0px;
+    }
+.img-cross{
+    float: right;
+    margin: -11px;
+    }
+.fpp-10{ 
+    padding:10px;
+        }
+.checkbox label::before {
+        background-color: transparent;
+        border-radius: 3px;
+        border: 2px solid #4ca1af;
+        content: "";
+        display: inline-block;
+        height: 30px;
+        width: 25px;
+        left: 0;
+        margin-left: -18px;
+        position: absolute;
+        transition: .3s ease-in-out;
+        width: 29px;
+        outline: 0!important;
+        top: 2px;
+    }
+.icon-box{
+      padding:20px;
+       font-family: 'Montserrat-Light';
+    }
+.checkbox input[type=checkbox]:checked+label::after {
+       content: "";
+        position: absolute;
+        top: 0px;
+        left: 14px;
+        display: tabl;
+        width: 12px;
+        height: 23px;
+        width:8px ;
+        border: 2px solid #4ca1af;
+        border-top-width: 0;
+        border-left-width: 0;
+        transform: rotate(45deg);
+        font-family: 'Montserrat-Light';
+    }
+    
+.box-b{
+    border: 1px solid #4ca1af;
+    border-radius:12px;
+    padding:20px;
+     }
+.checkbox label::after {
+        color: #6c757d;
+        display: inline-block;
+        font-size: 11px;
+        height: 18px;
+        left: 0;
+        margin-left: -18px;
+        padding-left: 3px;
+        padding-top: 2px;
+        position: absolute;
+        top: 0;
+        width: 18px;
+    }
+.checkbox.checkbox-circle label::before {
+        border-radius: 50%;
+}
+
+.fs-35{
+font-size:35px;
+}
+.txt-i
+{
+    text-decoration:italic;
+}
+
+.btn-page52
+ {
+        color: #fff;
+        background-image: linear-gradient(to bottom, #326c7b 0%, 
+        #224d5c 30%, #4898a7 100%);
+        border-color: #336f7e;
+        border-radius:25px;
+   }
+.btn92{border: 1px solid #4ca1af;
+    width: 60px;   
+    padding: 4px;
+   
+    border-radius: 12px;}
+	
+.btn95{border: 1px solid #4ca1af;
+    width: auto;  
+    padding: 4px;
+   
+    border-radius: 12px;}
