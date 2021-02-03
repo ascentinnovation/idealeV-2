@@ -16,19 +16,24 @@ import { DesignexterieurComponent} from '../app/designexterieur/designexterieur.
 import { EcologieComponent} from '../app/ecologie/ecologie.component';
 import { TransmissionComponent} from '../app/transmission/transmission.component';
 import { EnergieComponent} from '../app/energie/energie.component';
-import { Page3Component} from '../app/page3/page3.component';
-import {CategorieComponent} from '../app/categorie/categorie.component';
+import { Page3Component } from '../app/page3/page3.component';
+import { CategorieComponent} from '../app/categorie/categorie.component';
+import { Page28Component } from '../app/page28/page28.component';
+
 
 ///information routing
+
 import { SecuriteinfoComponent } from '../app/securiteinfo/securiteinfo.component';
 import { CategoriedevehiculeComponent } from '../app/categoriedevehicule/categoriedevehicule.component';
 import { AsiaaustationinfoComponent } from '../app/asiaaustationinfo/asiaaustationinfo.component';
 import { EnergieinfoComponent  } from '../app/energieinfo/energieinfo.component';
 import { EcologieinfoComponent } from '../app/ecologieinfo/ecologieinfo.component';
-import {CatgorieinfoComponent} from '../app/catgorieinfo/catgorieinfo.component';
+import { CatgorieinfoComponent} from '../app/catgorieinfo/catgorieinfo.component';
+import { TransmissioninfoComponent } from '../app/transmissioninfo/transmissioninfo.component';
 import { PerformanceinfoComponent } from '../app/performanceinfo/performanceinfo.component';
-const routes: Routes = [
 
+const routes: Routes = [
+  
   {path:'',component:HomeComponent},
   {path: 'Page1', component:Page1Component},
   {path: 'demo', component:NewdemoComponent},
@@ -54,13 +59,14 @@ const routes: Routes = [
   {path: 'Designexterieur',component:DesignexterieurComponent},
   {path: 'Adialaconduite',component:AdialaconduiteComponent},
   {path: 'Categorie',component:CategorieComponent},
-   {path: 'asiaaustationinfo',component:AsiaaustationinfoComponent},
-   {path: 'securiteinfo',component:SecuriteinfoComponent},
- {path: 'Performanceinfo',component:PerformanceinfoComponent},
+  {path: 'asiaaustationinfo',component:AsiaaustationinfoComponent},
+  {path: 'securiteinfo',component:SecuriteinfoComponent},
+  {path: 'Performanceinfo',component:PerformanceinfoComponent},
   {path: 'Ecologieinfo',component:EcologieinfoComponent},
-  //  {path: 'transmissioninfo',component:Page25Component},
-   {path: 'Energieinfo',component:EnergieinfoComponent},
-   {path: 'Categorieinfo',component:CatgorieinfoComponent},
+  {path: 'Transmissioninfo',component:TransmissioninfoComponent},
+  {path: 'Energieinfo',component:EnergieinfoComponent},
+  {path: 'Categorieinfo',component:CatgorieinfoComponent},
+  {path: 'validationrecherche',component:Page28Component}
   //  {path: 'validationrecherche',component:Page28Component},
   //  {path: 'categorie1',component:Page29Component},
   //  {path: 'resultatdeecherche',component:Page30Component},
