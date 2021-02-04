@@ -1,7 +1,11 @@
-body{
-background-color: #fff!important;
-}
+
 .bg-white{ background-color: #fff!important;}
+body{
+    background-color:#ffffff !important;
+}
+.content-page{
+    background-color:#ffffff!important;
+}
 .text-italic{
     font-size: 13px;
     font-style: italic;
@@ -49,3 +53,52 @@ background-color: #fff!important;
     font-size:13px;
     margin-top:10px;
 }
+
+
+//model css
+.btn1-page2 {
+    box-shadow: 0 0 0 rgba(241,85,108,.5);
+}
+.btn1-page2 {
+    color: #fff;
+    background-color:#1d4353;
+    border-color: #1d4353;
+}
+.btn-page62{
+    color: #fff;
+    background-color: #347281;
+    border-color: #347281;
+	border-radius:25px;
+	padding-left:50px;
+	padding-right:50px;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 810px !important;
+    margin: 1.75rem auto;
+}
+}
+@media (min-width: 320px){
+.mbp-60{padding:65px !important;}
+}
+.mbp-60{padding:50px;}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .9rem + 2px);
+    padding: 29px 20px;
+    font-size: .875rem;
+    font-weight: 400;
+	font-family:'Montserrat-Light';
+    line-height: 1.5;
+    color: #1d4353;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #707070 !important;
+	border-radius:0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.fs-25{font-size:25px;}
+.fs-20 {font-size:20px;}
+.modal-content{border-radius:30px;}
+.txt-u{text-decoration:underline;}

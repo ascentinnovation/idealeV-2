@@ -3,10 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RouterModule } from '@angular/router';
-
-// import { Web1Component } from './web1/web1.component';
-import { NewdemoComponent } from './newdemo/newdemo.component';
+// import { RouterModule } from '@angular/router';
 import { Page1Component} from './page1/page1.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
@@ -31,14 +28,21 @@ import { AdialaconduiteComponent } from './adialaconduite/adialaconduite.compone
 import { CategorieComponent } from './categorie/categorie.component';
 import { AsiaaustationinfoComponent } from './asiaaustationinfo/asiaaustationinfo.component';
 import { SecuriteinfoComponent } from './securiteinfo/securiteinfo.component';
-import { Page3Component } from './page3/page3.component'
-
-
+import { Page3Component } from './page3/page3.component';
+import { EnergieinfoComponent } from './energieinfo/energieinfo.component';
+import { EcologieinfoComponent } from './ecologieinfo/ecologieinfo.component';
+import { CatgorieinfoComponent } from './catgorieinfo/catgorieinfo.component';
+import { TransmissioninfoComponent } from './transmissioninfo/transmissioninfo.component';
+import { PerformanceinfoComponent } from './performanceinfo/performanceinfo.component';
+import { Page28Component } from './page28/page28.component';
+import { ResultatderechecheComponent } from './resultatderecheche/resultatderecheche.component';
+import { Header2Component } from './header2/header2.component';
+import { ResultatsdemarechercheComponent } from './resultatsdemarecherche/resultatsdemarecherche.component';
+import { FilterparmarquesComponent } from './filterparmarques/filterparmarques.component'
 
 @NgModule({
   declarations: [
     AppComponent, 
-    NewdemoComponent,
     Page1Component,
     FooterComponent,
     HeaderComponent,
@@ -63,7 +67,17 @@ import { Page3Component } from './page3/page3.component'
     CategorieComponent,
     AsiaaustationinfoComponent,
     SecuriteinfoComponent,
-    Page3Component
+    Page3Component,
+    EnergieinfoComponent,
+    EcologieinfoComponent,
+    CatgorieinfoComponent,
+    TransmissioninfoComponent,
+    PerformanceinfoComponent,
+    Page28Component,
+    ResultatderechecheComponent,
+    Header2Component,
+    ResultatsdemarechercheComponent,
+    FilterparmarquesComponent
   
   ],
   imports: [
